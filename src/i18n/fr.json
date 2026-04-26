@@ -1,0 +1,123 @@
+{
+  "nav": {
+    "services": "Services",
+    "gallery": "Galerie",
+    "about": "À propos",
+    "contact": "Contact",
+    "quote": "Demander un devis"
+  },
+  "hero": {
+    "badge": "Détailing Premium au Québec",
+    "title": "L'Art du",
+    "title2": "Détailing Automobile",
+    "subtitle": "Nous redonnons à votre véhicule son éclat d'origine — ou au-delà. Chaque courbe, chaque surface, chaque détail.",
+    "cta_primary": "Réserver maintenant",
+    "cta_secondary": "Voir nos services",
+    "stat1_value": "500+",
+    "stat1_label": "Véhicules traités",
+    "stat2_value": "5★",
+    "stat2_label": "Note moyenne",
+    "stat3_value": "10+",
+    "stat3_label": "Ans d'expérience"
+  },
+  "services": {
+    "badge": "Nos Services",
+    "title": "Une gamme complète de",
+    "title2": "soins premium",
+    "subtitle": "Du lavage express au traitement céramique professionnel, chaque service est réalisé avec passion et expertise.",
+    "items": [
+      {
+        "title": "Polissage & Correction",
+        "desc": "Élimination des swirls, rayures et oxydation. Révèle l'éclat profond de votre peinture.",
+        "price": "À partir de 299$"
+      },
+      {
+        "title": "Protection Céramique",
+        "desc": "Revêtement nano-céramique 9H pour une protection durable contre les UV, la pluie et la saleté.",
+        "price": "À partir de 599$"
+      },
+      {
+        "title": "Détailing Intérieur",
+        "desc": "Nettoyage profond, protection cuir, désinfection — un habitacle comme neuf.",
+        "price": "À partir de 149$"
+      },
+      {
+        "title": "Lavage Premium",
+        "desc": "Lavage à la main, décontamination, séchage soufflé — le standard le plus élevé.",
+        "price": "À partir de 79$"
+      },
+      {
+        "title": "Film PPF",
+        "desc": "Protection Paint Protection Film auto-cicatrisante contre les impacts et graviers.",
+        "price": "Sur devis"
+      },
+      {
+        "title": "Pack Complet",
+        "desc": "Polissage + Céramique + Intérieur — la transformation totale de votre véhicule.",
+        "price": "À partir de 999$"
+      }
+    ]
+  },
+  "before_after": {
+    "badge": "Avant / Après",
+    "title": "Voyez la",
+    "title2": "Transformation",
+    "subtitle": "Glissez pour révéler la différence — chaque voiture racontée en deux images.",
+    "before": "Avant",
+    "after": "Après"
+  },
+  "gallery": {
+    "badge": "Galerie",
+    "title": "Notre Travail",
+    "title2": "en Images",
+    "subtitle": "Chaque photo est le témoignage de notre engagement envers l'excellence."
+  },
+  "quote": {
+    "badge": "Devis Gratuit",
+    "title": "Obtenez votre",
+    "title2": "devis personnalisé",
+    "subtitle": "3 étapes simples — réponse sous 24h.",
+    "step1_title": "Votre Véhicule",
+    "step2_title": "Service Souhaité",
+    "step3_title": "Vos Coordonnées",
+    "step1_desc": "Dites-nous quel véhicule vous avez",
+    "step2_desc": "Choisissez le service qui vous intéresse",
+    "step3_desc": "Comment vous contacter pour confirmer",
+    "vehicle_label": "Type de véhicule",
+    "vehicle_placeholder": "Ex: Tesla Model 3, BMW X5...",
+    "year_label": "Année",
+    "year_placeholder": "Ex: 2022",
+    "condition_label": "État actuel",
+    "condition_options": ["Excellent", "Bon", "Passable", "Mauvais"],
+    "service_label": "Service souhaité",
+    "service_options": ["Lavage Premium", "Polissage & Correction", "Protection Céramique", "Détailing Intérieur", "Film PPF", "Pack Complet"],
+    "budget_label": "Budget approximatif",
+    "budget_options": ["Moins de 100$", "100$ – 300$", "300$ – 600$", "600$ – 1000$", "1000$+"],
+    "name_label": "Nom complet",
+    "name_placeholder": "Jean Tremblay",
+    "email_label": "Courriel",
+    "email_placeholder": "jean@exemple.com",
+    "phone_label": "Téléphone",
+    "phone_placeholder": "(514) 000-0000",
+    "message_label": "Message (optionnel)",
+    "message_placeholder": "Précisions supplémentaires...",
+    "next": "Suivant",
+    "back": "Retour",
+    "submit": "Envoyer ma demande",
+    "success_title": "Demande envoyée !",
+    "success_desc": "Nous vous contacterons dans les 24 heures pour confirmer votre rendez-vous.",
+    "step": "Étape"
+  },
+  "footer": {
+    "tagline": "L'excellence du détailing automobile au Québec.",
+    "address": "Québec, Canada",
+    "phone": "(514) 000-0000",
+    "email": "contact@rmautospa.ca",
+    "hours": "Lun–Sam : 8h–18h",
+    "rights": "Tous droits réservés.",
+    "links": {
+      "privacy": "Confidentialité",
+      "terms": "Conditions"
+    }
+  }
+}

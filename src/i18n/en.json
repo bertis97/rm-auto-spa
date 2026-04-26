@@ -1,0 +1,123 @@
+{
+  "nav": {
+    "services": "Services",
+    "gallery": "Gallery",
+    "about": "About",
+    "contact": "Contact",
+    "quote": "Get a Quote"
+  },
+  "hero": {
+    "badge": "Premium Detailing in Quebec",
+    "title": "The Art of",
+    "title2": "Automotive Detailing",
+    "subtitle": "We restore your vehicle's original brilliance — or beyond. Every curve, every surface, every detail.",
+    "cta_primary": "Book Now",
+    "cta_secondary": "View Our Services",
+    "stat1_value": "500+",
+    "stat1_label": "Vehicles Treated",
+    "stat2_value": "5★",
+    "stat2_label": "Average Rating",
+    "stat3_value": "10+",
+    "stat3_label": "Years of Experience"
+  },
+  "services": {
+    "badge": "Our Services",
+    "title": "A full range of",
+    "title2": "premium care",
+    "subtitle": "From express wash to professional ceramic coating, every service is delivered with passion and expertise.",
+    "items": [
+      {
+        "title": "Polishing & Correction",
+        "desc": "Removal of swirls, scratches and oxidation. Reveals the deep brilliance of your paint.",
+        "price": "Starting at $299"
+      },
+      {
+        "title": "Ceramic Protection",
+        "desc": "9H nano-ceramic coating for lasting protection against UV, rain and dirt.",
+        "price": "Starting at $599"
+      },
+      {
+        "title": "Interior Detailing",
+        "desc": "Deep cleaning, leather protection, disinfection — an interior like new.",
+        "price": "Starting at $149"
+      },
+      {
+        "title": "Premium Wash",
+        "desc": "Hand wash, decontamination, blown drying — the highest standard.",
+        "price": "Starting at $79"
+      },
+      {
+        "title": "PPF Film",
+        "desc": "Self-healing Paint Protection Film against impacts and gravel.",
+        "price": "On quote"
+      },
+      {
+        "title": "Full Package",
+        "desc": "Polishing + Ceramic + Interior — the total transformation of your vehicle.",
+        "price": "Starting at $999"
+      }
+    ]
+  },
+  "before_after": {
+    "badge": "Before / After",
+    "title": "See the",
+    "title2": "Transformation",
+    "subtitle": "Slide to reveal the difference — every car told in two images.",
+    "before": "Before",
+    "after": "After"
+  },
+  "gallery": {
+    "badge": "Gallery",
+    "title": "Our Work",
+    "title2": "in Images",
+    "subtitle": "Every photo is a testament to our commitment to excellence."
+  },
+  "quote": {
+    "badge": "Free Quote",
+    "title": "Get your",
+    "title2": "personalized quote",
+    "subtitle": "3 simple steps — response within 24h.",
+    "step1_title": "Your Vehicle",
+    "step2_title": "Desired Service",
+    "step3_title": "Your Details",
+    "step1_desc": "Tell us about your vehicle",
+    "step2_desc": "Choose the service you're interested in",
+    "step3_desc": "How to contact you to confirm",
+    "vehicle_label": "Vehicle type",
+    "vehicle_placeholder": "E.g.: Tesla Model 3, BMW X5...",
+    "year_label": "Year",
+    "year_placeholder": "E.g.: 2022",
+    "condition_label": "Current condition",
+    "condition_options": ["Excellent", "Good", "Fair", "Poor"],
+    "service_label": "Desired service",
+    "service_options": ["Premium Wash", "Polishing & Correction", "Ceramic Protection", "Interior Detailing", "PPF Film", "Full Package"],
+    "budget_label": "Approximate budget",
+    "budget_options": ["Under $100", "$100 – $300", "$300 – $600", "$600 – $1000", "$1000+"],
+    "name_label": "Full name",
+    "name_placeholder": "John Smith",
+    "email_label": "Email",
+    "email_placeholder": "john@example.com",
+    "phone_label": "Phone",
+    "phone_placeholder": "(514) 000-0000",
+    "message_label": "Message (optional)",
+    "message_placeholder": "Additional details...",
+    "next": "Next",
+    "back": "Back",
+    "submit": "Send my request",
+    "success_title": "Request sent!",
+    "success_desc": "We will contact you within 24 hours to confirm your appointment.",
+    "step": "Step"
+  },
+  "footer": {
+    "tagline": "Excellence in automotive detailing in Quebec.",
+    "address": "Quebec, Canada",
+    "phone": "(514) 000-0000",
+    "email": "contact@rmautospa.ca",
+    "hours": "Mon–Sat: 8am–6pm",
+    "rights": "All rights reserved.",
+    "links": {
+      "privacy": "Privacy",
+      "terms": "Terms"
+    }
+  }
+}
