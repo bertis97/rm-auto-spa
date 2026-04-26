@@ -8,7 +8,7 @@ interface QuoteFormProps { t: Translations }
 
 type FormData = {
   vehicle: string; year: string; condition: string;
-  service: string; budget: string;
+  service: string;
   name: string; email: string; phone: string; message: string;
 }
 
@@ -19,7 +19,7 @@ export default function QuoteForm({ t }: QuoteFormProps) {
   const [submitted, setSubmitted] = useState(false)
   const [data, setData] = useState<FormData>({
     vehicle: '', year: '', condition: '',
-    service: '', budget: '',
+    service: '',
     name: '', email: '', phone: '', message: '',
   })
 
@@ -131,13 +131,6 @@ export default function QuoteForm({ t }: QuoteFormProps) {
                           </button>
                         ))}
                       </div>
-                    </div>
-                    <div>
-                      <label className="block text-sm font-body text-white/70 mb-2" htmlFor="budget">{q.budget_label}</label>
-                      <select id="budget" value={data.budget} onChange={(e) => update('budget', e.target.value)} className={selectCls}>
-                        <option value="">—</option>
-                        {q.budget_options.map((o) => <option key={o} value={o}>{o}</option>)}
-                      </select>
                     </div>
                     <div className="flex gap-3">
                       <button type="button" onClick={() => setStep(1)}
