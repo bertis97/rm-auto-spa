@@ -26,13 +26,15 @@ export default function QuoteForm({ t }: QuoteFormProps) {
   const q = t.quote
   const update = (k: keyof FormData, v: string) => setData((d) => ({ ...d, [k]: v }))
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    const subject = encodeURIComponent(`Soumission - ${data.vehicle} ${data.year}`)
-    const body = encodeURIComponent(
-      `Véhicule: ${data.vehicle} ${data.year}\nÉtat: ${data.condition}\nService: ${data.service}\n\nNom: ${data.name}\nCourriel: ${data.email}\nTéléphone: ${data.phone}\n\nMessage:\n${data.message}`
-    )
-    window.location.href = `mailto:royautospa@gmail.com?subject=${subject}&body=${body}`
+    try {
+      await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+      })
+    } catch {}
     setSubmitted(true)
   }
 
