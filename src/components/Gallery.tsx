@@ -43,6 +43,11 @@ const IMAGES = [
     alt: 'Finition RM AUTO SPA',
     span: 'col-span-1 row-span-1',
   },
+  {
+    src: '/gallery/cleancover11-automobile-3669566.jpg',
+    alt: 'RM AUTO SPA',
+    span: 'col-span-1 row-span-1',
+  },
 ]
 
 export default function Gallery({ t }: GalleryProps) {
