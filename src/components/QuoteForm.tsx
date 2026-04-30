@@ -26,13 +26,23 @@ export default function QuoteForm({ t }: QuoteFormProps) {
   const q = t.quote
   const update = (k: keyof FormData, v: string) => setData((d) => ({ ...d, [k]: v }))
 
-  const handleSubmit = (e: React.SyntheticEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.SyntheticEvent<HTMLFormElement>) => {
     e.preventDefault()
-    const subject = encodeURIComponent(`Soumission RM AUTO SPA — ${data.name} | ${data.vehicle} ${data.year}`)
-    const body = encodeURIComponent(
-      `VÉHICULE\nType : ${data.vehicle}\nAnnée : ${data.year || '—'}\nÉtat : ${data.condition}\n\nSERVICE SOUHAITÉ\n${data.service}\n\nCOORDONNÉES\nNom : ${data.name}\nCourriel : ${data.email}\nTéléphone : ${data.phone || '—'}\n\nMESSAGE\n${data.message || '—'}`
-    )
-    window.open(`mailto:royautospa@gmail.com,absurdite101@gmail.com?subject=${subject}&body=${body}`)
+    await fetch('https://formspree.io/f/xnjwalqn', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        _replyto: data.email,
+        _subject: `Soumission RM AUTO SPA — ${data.name} | ${data.vehicle} ${data.year}`,
+        Véhicule: `${data.vehicle} ${data.year}`,
+        État: data.condition,
+        Service: data.service,
+        Nom: data.name,
+        Courriel: data.email,
+        Téléphone: data.phone || '—',
+        Message: data.message || '—',
+      }),
+    }).catch(() => {})
     setSubmitted(true)
   }
 
