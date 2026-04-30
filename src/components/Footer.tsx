@@ -17,7 +17,7 @@ export default function Footer({ t }: FooterProps) {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-12"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mb-12"
         >
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
@@ -60,13 +60,15 @@ export default function Footer({ t }: FooterProps) {
                   {f.email}
                 </a>
               </li>
+              <li>
+                <a href="https://www.facebook.com/share/1B6gXz1wBz/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-white/50 hover:text-white font-body text-sm transition-colors cursor-pointer">
+                  <svg className="w-4 h-4 flex-shrink-0 text-violet-400" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" />
+                  </svg>
+                  Facebook
+                </a>
+              </li>
             </ul>
-          </div>
-
-          {/* Hours */}
-          <div>
-            <h3 className="font-display text-white font-semibold mb-4 text-sm tracking-wide uppercase">Horaires</h3>
-            <p className="text-white/50 font-body text-sm">{f.hours}</p>
           </div>
 
           {/* CTA */}

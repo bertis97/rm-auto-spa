@@ -9,33 +9,38 @@ interface GalleryProps { t: Translations }
 
 const IMAGES = [
   {
-    src: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1200',
-    alt: 'Voiture de sport rouge - détailing RM AUTO SPA',
+    src: '/gallery/674786227_799853146325310_3500422265449239856_n.jpg',
+    alt: 'Détailing RM AUTO SPA',
     span: 'col-span-2 row-span-2',
   },
   {
-    src: 'https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?q=80&w=800',
-    alt: 'Polissage professionnel',
+    src: '/gallery/675952345_2006598580732438_637542580748000600_n.jpg',
+    alt: 'Traitement céramique RM AUTO SPA',
     span: 'col-span-1 row-span-1',
   },
   {
-    src: 'https://images.pexels.com/photos/6953049/pexels-photo-6953049.jpeg?auto=format&w=800',
-    alt: 'Application de cire',
+    src: '/gallery/677776354_736938149506611_8794085271221381689_n.jpg',
+    alt: 'Polissage RM AUTO SPA',
     span: 'col-span-1 row-span-1',
   },
   {
-    src: 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=800',
-    alt: 'Voiture après traitement céramique',
+    src: '/gallery/679337688_1452463609447600_6939511518132661196_n.jpg',
+    alt: 'Protection peinture RM AUTO SPA',
     span: 'col-span-1 row-span-2',
   },
   {
-    src: 'https://images.pexels.com/photos/1008659/pexels-photo-1008659.jpeg?auto=format&w=800',
-    alt: 'Intérieur luxueux nettoyé',
+    src: '/gallery/680148703_991923373259688_6758219384710238931_n.jpg',
+    alt: 'Lavage premium RM AUTO SPA',
     span: 'col-span-1 row-span-1',
   },
   {
-    src: 'https://images.pexels.com/photos/7301072/pexels-photo-7301072.jpeg?auto=format&w=800',
-    alt: 'Lavage à la mousse',
+    src: '/gallery/672579033_939129268899312_6491529349596018458_n.jpg',
+    alt: 'Détailing intérieur RM AUTO SPA',
+    span: 'col-span-1 row-span-1',
+  },
+  {
+    src: '/gallery/656970050_999764615810439_2781129092969515184_n.jpg',
+    alt: 'Finition RM AUTO SPA',
     span: 'col-span-1 row-span-1',
   },
 ]

@@ -47,11 +47,6 @@
         "price": "Quote on request"
       },
       {
-        "title": "PPF Film",
-        "desc": "Self-healing Paint Protection Film against impacts and gravel.",
-        "price": "Quote on request"
-      },
-      {
         "title": "Full Package",
         "desc": "Polishing + Ceramic + Interior — the total transformation of your vehicle.",
         "price": "Quote on request"
@@ -82,7 +77,7 @@
     "condition_label": "Current condition",
     "condition_options": ["Excellent", "Good", "Fair", "Poor"],
     "service_label": "Desired service",
-    "service_options": ["Premium Wash", "Polishing & Correction", "Ceramic Protection", "Interior Detailing", "PPF Film", "Full Package"],
+    "service_options": ["Premium Wash", "Polishing & Correction", "Ceramic Protection", "Interior Detailing", "Full Package"],
     "name_label": "Full name",
     "name_placeholder": "John Smith",
     "email_label": "Email",
@@ -100,9 +95,9 @@
   },
   "footer": {
     "tagline": "Excellence in automotive detailing in Quebec.",
-    "address": "Quebec, Canada",
+    "address": "2515 avenue Dalton, porte 6-7, Québec",
     "phone": "418-631-3213",
-    "email": "contact@rmautospa.ca",
+    "email": "royautospa@gmail.com",
     "hours": "Mon–Sat: 8am–6pm",
     "rights": "All rights reserved.",
     "links": {

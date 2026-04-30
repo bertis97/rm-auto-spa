@@ -23,7 +23,6 @@ export default function Navbar({ t, locale, onLocaleChange }: NavbarProps) {
   const links = [
     { href: '#services', label: t.nav.services },
     { href: '#gallery', label: t.nav.gallery },
-    { href: '#before-after', label: locale === 'fr' ? 'Avant/Après' : 'Before/After' },
     { href: '#contact', label: t.nav.contact },
   ]
 

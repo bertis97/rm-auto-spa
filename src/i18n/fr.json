@@ -47,11 +47,6 @@
         "price": "Prix sur soumission"
       },
       {
-        "title": "Film PPF",
-        "desc": "Protection Paint Protection Film auto-cicatrisante contre les impacts et graviers.",
-        "price": "Prix sur soumission"
-      },
-      {
         "title": "Pack Complet",
         "desc": "Polissage + Céramique + Intérieur — la transformation totale de votre véhicule.",
         "price": "Prix sur soumission"
@@ -82,7 +77,7 @@
     "condition_label": "État actuel",
     "condition_options": ["Excellent", "Bon", "Passable", "Mauvais"],
     "service_label": "Service souhaité",
-    "service_options": ["Lavage Premium", "Polissage & Correction", "Protection Céramique", "Détailing Intérieur", "Film PPF", "Pack Complet"],
+    "service_options": ["Lavage Premium", "Polissage & Correction", "Protection Céramique", "Détailing Intérieur", "Pack Complet"],
     "name_label": "Nom complet",
     "name_placeholder": "Jean Tremblay",
     "email_label": "Courriel",
@@ -100,9 +95,9 @@
   },
   "footer": {
     "tagline": "L'excellence du détailing automobile au Québec.",
-    "address": "Québec, Canada",
+    "address": "2515 avenue Dalton, porte 6-7, Québec",
     "phone": "418-631-3213",
-    "email": "contact@rmautospa.ca",
+    "email": "royautospa@gmail.com",
     "hours": "Lun–Sam : 8h–18h",
     "rights": "Tous droits réservés.",
     "links": {
