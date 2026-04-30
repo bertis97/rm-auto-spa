@@ -33,7 +33,7 @@ export default function QuoteForm({ t }: QuoteFormProps) {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         _replyto: data.email,
-        _cc: 'royautospa@gmail.com',
+        _cc: 'roymautospa@gmail.com',
         _subject: `Soumission RM AUTO SPA — ${data.name} | ${data.vehicle} ${data.year}`,
         Véhicule: `${data.vehicle} ${data.year}`,
         État: data.condition,
